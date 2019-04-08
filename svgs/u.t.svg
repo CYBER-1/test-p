@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="83px" viewBox="0 0 77 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 115</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.9%" y="-2.2%" width="101.7%" height="104.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Version-1" transform="translate(-662.000000, -3554.000000)">
+            <g id="Group-116" filter="url(#filter-1)" transform="translate(10.000000, 3500.000000)">
+                <g id="Group-115" transform="translate(653.000000, 58.000000)">
+                    <g id="Group-89" fill="#F3CE18" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="4">
+                        <polygon id="Polygon" points="37.5 0 69.9759526 17.75 69.9759526 53.25 37.5 71 5.02404736 53.25 5.02404736 17.75"></polygon>
+                    </g>
+                    <g id="Group-57" transform="translate(5.000000, 19.000000)" fill-rule="nonzero" stroke="#000000" stroke-dasharray="4,5" stroke-width="4">
+                        <path d="M63.15,0.200826831 L38.049559,0.200826831 L26.6109317,33.2008268 L0.2,33.2008268" id="Path-21"></path>
+                    </g>
+                    <path d="M16.1332209,21 L16.1332209,35.2828903 C16.1332209,38.3715065 18.0716695,40.4723926 21.5,40.4723926 C24.9283305,40.4723926 26.8827993,38.3715065 26.8827993,35.2828903 L26.8827993,21 L31,21 L31,35.6434901 C31,40.5821404 27.3634064,44 21.5,44 C15.6526138,44 12,40.5821404 12,35.6434901 L12,21 L16.1332209,21 Z" id="U" fill="#000000"></path>
+                    <g id="Group-94" transform="translate(46.000000, 32.000000)" fill="#000000">
+                        <polygon id="T" points="11.421875 23 7.390625 23 7.390625 3.9375 0.453125 3.9375 0.453125 0.453125 18.375 0.453125 18.375 3.9375 11.421875 3.9375"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

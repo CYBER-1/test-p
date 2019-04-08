@@ -1,0 +1,448 @@
+@import url("/css/stars.css");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: black;
+    line-height: 1.2;
+}
+
+.design-deliverables {
+    padding-bottom: 50px;
+}
+
+.container {
+    background-color: transparent;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.summary h1 {
+    padding-bottom: 2rem;
+}
+
+.summary h3 {
+    padding-bottom: 0.4rem;
+}
+
+.casestudytop {
+    width: 100%;
+    float: left;
+}
+
+.summary {
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 3rem;
+    font-size: 12px;
+}
+
+.btn-ios {
+    background: #F3CE18;
+    display: inline-block;
+    color: #000;
+    margin-left: 12.5%;
+}
+
+ul img {
+    height: 50px;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+ul li {
+    padding-bottom: 0.75rem;
+}
+
+.cs-start ul {
+    float: left;
+    width: 31.3%;
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+    color: white;
+    margin: 1%;
+}
+
+
+.btn-desk {
+    border: 1px solid #F3CE18;
+    float: right;
+    margin-right: 12.5%;
+}
+
+.btn-desk, .btn-ios {
+    border-radius: 20px;
+    width: 35%;
+    height: 4rem; 
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.btn-ios:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #F3CE18;
+    transition: .5s;
+}
+
+.btn-desk:hover {
+    background: #F3CE18;
+    color: #000;
+    transition: .5s;
+}
+
+.summary h3 {
+    font-size: 2.2rem;
+}
+
+.text {
+    padding-top: 5rem;
+    width: 100%;
+    color: #fff;
+    margin: 0 auto;
+    padding-bottom: 9rem;
+}
+
+.summary h1, h3 {
+    text-align: center;
+}
+
+.summary h1 {
+    font-size: 3.2rem;
+}
+
+.summary p {
+    font-size: 1.7rem;
+}
+
+.cs-start img {
+    width: 5rem;   
+}
+
+.cs-start div {
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+}
+
+.overview img {
+    width: 100%;
+    height: 5rem;
+}
+
+.cs-main-body {
+    padding-top: 2rem;
+}
+
+.start-poly img {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+}
+
+.design-process img {
+    width: 100%;
+    height: 5rem;
+    display: block;
+    position: relative;
+    float: left;
+    position: flex;
+    margin-top: 10vh;
+    z-index: 1;
+}
+
+.problem-solution-poly img {
+    width: 100%;
+    height: 5rem;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: 3vh;
+    z-index: 1;
+    margin-top: 5rem;
+}
+
+.survey-target img {
+
+    height: 5rem;
+    width: 5%;
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 7vh;
+    z-index: 1;
+}
+
+/*
+.polygon-overview {
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    background: #F3CE18;
+    -webkit-clip-path: polygon(75% 25%, 100% 50%, 75% 75%, 25% 75%, 0 50%, 25% 25%);
+    clip-path: polygon(75% 25%, 100% 50%, 75% 75%, 25% 75%, 0 50%, 25% 25%);
+}
+
+.polygon-overview {
+    padding-top: 2rem;
+    width: 100px;
+}
+div.polygon-overview {
+    margin: 0 auto;
+}
+
+.polygon-overview h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+}
+*/
+
+
+
+.problem-left, .usersurvey-left{
+    background-color: #fff;
+    width: 45%;
+    margin-left: 2.5%;
+    position: relative;
+    margin-top: 3rem;
+    float: left;
+}
+
+.full {
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: 5rem;
+}
+
+.half {
+    padding-left: 10%;
+    width: 40%;
+    float: left;
+}
+
+.half2 {
+    padding-right: 10%;
+    width: 40%;
+    float: right;
+}
+
+.half2 h3{
+    width: 80%;
+    font-size: 18px;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+/*
+.magnify {
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+*/
+
+.chart3-text {
+    padding-top: 2rem;
+}
+
+.chart-section1, .chart-section2 {
+    width: 100%;
+
+}
+
+.half h3 {
+    width: 80%;
+    font-size: 18px;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: 600;
+    color: white;
+}
+
+.h1-text {
+    padding-top: 3rem;
+    width: 100%;
+    display: inline-block;
+}
+
+.h1-text h1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.h1-shape-left {
+    background-color: #F3CE18;
+    float: left;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 2.6rem;
+    height: 2.6rem;
+    display: inline-block;
+}
+
+.cut-poly-left {
+    background-color: black;
+    position: absolute;
+    transform: translateX(71%);
+    right: 0;
+    top: 20px;
+    width: 5rem;
+    height: 5rem;
+    -webkit-clip-path: polygon(0 30%, 30% 0, 30% 100%, 0 70%);
+    clip-path: polygon(0 30%, 30% 0, 30% 100%, 0 70%);
+}
+
+.problem .problem-body {
+    padding: 2rem;
+}
+
+.ln-problem-left {
+    background-color: #000;
+    width: 500px;
+    height: 5rem;
+    margin: 0 auto;
+}
+
+.problem p {
+    font-size: 1.6rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.problem h1 {
+    font-size: 2.4rem;
+}
+
+.problem h3 {
+    font-size: 1.9rem;
+    text-align: left;
+}
+
+/*Right Side*/
+
+.cut-poly-right {
+    background-color: black;
+    position: absolute;
+    transform: translateX(-31%);
+    left: 0;
+    top: 20px;
+    width: 5rem;
+    height: 5rem;
+    -webkit-clip-path: polygon(60% 30%, 30% 0, 30% 100%, 60% 70%);
+    clip-path: polygon(60% 30%, 30% 0, 30% 100%, 60% 70%);
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 1.6rem;
+    padding-bottom: 1.5rem;
+    
+  }
+
+.h1-shape-right {
+    background-color: #F3CE18;
+    float: left;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 2.6rem;
+    height: 2.6rem;
+    display: inline-block;
+}
+
+.solution-right, .targetaudience-right{
+    margin-top: 3rem;
+    background-color: #fff;
+    width: 45%;
+    position: relative;
+    float: right;
+    right: 2.5%;
+}
+
+.targetaudience-right img {
+    height: 5rem;
+    width: 7rem;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.solution .solution-body {
+    padding: 2rem;
+}
+
+.ln-solution-right {
+    background-color: #000;
+    width: 500px;
+    height: 5rem;
+    margin: 0 auto;
+}
+
+.solution p {
+    font-size: 1.6rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.solution h1 {
+    font-size: 2.4rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.solution h3 {
+    font-size: 1.8rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 5px;;
+}
+
+
+/*Line*/
+
+#sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    background: #F3CE18;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: -8.75px;
+    top: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 6px #000;
+  }
+  
+  #line {
+    width: 3px;
+    margin: auto;
+    background-color: #ccc;
+  }
+  #line {
+    height: 8000px;
+  }
+
+  .line {
+      width: 5%;
+  }

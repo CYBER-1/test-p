@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="769px" height="108px" viewBox="0 0 769 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 121</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Version-1" transform="translate(-317.000000, -1922.000000)">
+            <g id="Group-121" transform="translate(318.000000, 1925.000000)">
+                <g id="Group-85" transform="translate(345.000000, 0.000000)">
+                    <polygon id="Polygon" stroke="#FFFFFF" stroke-width="4" fill="#F3CE18" fill-rule="nonzero" points="37.5 0 69.9759526 17.75 69.9759526 53.25 37.5 71 5.02404736 53.25 5.02404736 17.75"></polygon>
+                    <text id="START" font-family="SFProText-Semibold, SF Pro Text" font-size="17" font-weight="500" letter-spacing="0.600000024" fill="#000000">
+                        <tspan x="8.97163081" y="41.8482544">STAR</tspan>
+                        <tspan x="55.9717286" y="41.8482544">T</tspan>
+                    </text>
+                </g>
+                <path d="M259.775,53.5 L351.949121,53.5" id="Path-15" stroke="#FFFFFF" stroke-width="4" fill-rule="nonzero"></path>
+                <polyline id="Path-16" stroke="#FFFFFF" stroke-width="4" fill-rule="nonzero" points="261.053482 53.4929974 92.707463 53.4929974 2.84217094e-14 102.647428"></polyline>
+                <path d="M415.775,53.5 L507.949121,53.5" id="Path-15" stroke="#FFFFFF" stroke-width="4" fill-rule="nonzero" transform="translate(461.500000, 53.500000) scale(-1, 1) translate(-461.500000, -53.500000) "></path>
+                <polyline id="Path-16" stroke="#FFFFFF" stroke-width="4" fill-rule="nonzero" transform="translate(636.473259, 78.070212) scale(-1, 1) translate(-636.473259, -78.070212) " points="767 53.4929974 598.653981 53.4929974 505.946518 102.647428"></polyline>
+                <path d="M381.948265,70 L382.273684,102.848254" id="Path-19" stroke="#FFFFFF" stroke-width="4" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
