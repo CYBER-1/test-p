@@ -393,7 +393,6 @@
   }
   
   #stars2 {
-    opacity: .2;
     opacity: .3;
     width: 2px;
     height: 2px;
@@ -590,6 +589,6 @@
         transform: translateY(0px);
     }
     to {
-        transform: translateY(-300px);
+        transform: translateY(-3000px);
     }
   }

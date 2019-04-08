@@ -95,6 +95,24 @@ ul li {
     transition: .5s;
 }
 
+.btn-view {
+background-color: #F3CE18;
+border-radius: 20px;
+width: 80%;
+height: 4rem; 
+text-align: center;
+padding-top: 10px;
+font-size: 16px;
+margin: 0 auto;
+}
+
+.btn-view:hover {
+background: transparent;
+color: #000;
+border: 1px solid #F3CE18;
+transition: .5s;
+}
+
 .btn-desk:hover {
     background: #F3CE18;
     color: #000;
@@ -123,6 +141,7 @@ ul li {
 
 .summary p {
     font-size: 1.7rem;
+    line-height: 1.5;
 }
 
 .cs-start img {
@@ -174,7 +193,7 @@ ul li {
 
 .survey-target img {
 
-    height: 5rem;
+    height: 5.5rem;
     width: 5%;
     display: block;
     position: relative;
@@ -210,7 +229,7 @@ div.polygon-overview {
 
 
 
-.problem-left, .usersurvey-left{
+.problem-left, .usersurvey-left, .competitive{
     background-color: #fff;
     width: 45%;
     margin-left: 2.5%;
@@ -250,22 +269,84 @@ div.polygon-overview {
 
 
 
-/*
+
 .magnify {
+    margin-top: 2rem;
     background-color: #fff;
+    height: 100%;
     width: 100%;
     display: inline-block;
     position: relative;
+    float: left;
 }
-*/
+
+.magnify-text {
+    width: 49.85%;
+    height: 100%;
+    padding: 2rem;
+    display: inline-block;
+    text-align: left;
+}
+
+.magnify-text h3, h1 {
+    font-weight: 600;
+}
+
+.magnify-text h3 {
+    text-align: left;
+}
+
+.magnify-text h1 {
+    font-size: 24px;
+    padding-top: 2px;
+}
+
+.magnify-text h3 {
+    font-size:17px;
+}
+
+.magnify-text p {
+    font-size:16px;
+    padding-top: 5px;
+}
 
 .chart3-text {
     padding-top: 2rem;
 }
 
+.mag-icons {
+    float: right;
+    display: inline-block;
+    width: 50.15%;
+    border-left: 4px #000 dashed;
+}
+
+.competitor-img {
+    width: 45%;
+    margin-right: 2.5%;
+    margin-top: 3rem;
+    height: 100%;
+    float: right;
+}
+
+.competitor-img img {
+    width: 65%;
+padding: 5rem;
+    float: left;
+    left: 25%;
+    margin: 0 auto;
+}
+
+.mag-icons img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+    width: 20rem;
+}
+
 .chart-section1, .chart-section2 {
     width: 100%;
-
 }
 
 .half h3 {
@@ -402,10 +483,12 @@ ul {
     padding-bottom: 1.5rem;
     
 }
-
+ 
 .solution h1 {
     font-size: 2.4rem;
+   /*
     -webkit-text-stroke-width: 2px;
+    */
     -webkit-text-stroke-color: black;
 }
 
@@ -446,3 +529,93 @@ ul {
   .line {
       width: 5%;
   }
+
+
+  @media screen and ( max-width: 600px) {
+    .btn-ios {
+        margin-left: 7.5%;
+        width: 40%;
+    }
+
+    .btn-desk {
+        margin-right: 7.5%;
+        width: 40%;
+    }
+
+    .start-poly img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .line {
+        float: left;
+        width: 10%;
+        position: absolute;
+    }
+
+    #line {
+        margin-left: 5%;
+    }
+
+    .problem-solution-poly {
+        display: none;
+    }
+
+    .problem, .solution {
+        width: 100%;
+    }
+
+    .problem-left, .usersurvey-left, .competitive {
+        background-color: #fff;
+        width: 90%;
+        float: right;
+    }
+
+    .cut-poly-left, .cut-poly-right, .survey-target {
+        display: none;
+    }
+
+    .solution-right, .targetaudience-right {
+        background-color: #fff;
+        width: 90%;
+        position: initial;
+    }
+
+    .design-process  {
+        padding-left: 5rem;
+    }
+
+    .h1-shape-left, .h1-shape-right {
+        position: absolute;
+        margin-left: 0rem;
+    }
+    .solution {
+        float: left;
+    }
+
+  }
+
+  @media screen and (max-width: 500px) {
+    .design-process  {
+        padding-left: 4rem;
+    }
+  }
+
+  @media screen and (min-width: 780px) {
+.h1-shape-left, .h1-shape-right {
+    display: none;
+}
+
+  }
+
+  @media screen and (min-width: 1000px) {
+    .summary {
+        width: 50%;
+    }
+
+  }
+
+
+
+
+
