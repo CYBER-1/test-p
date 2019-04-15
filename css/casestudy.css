@@ -8,6 +8,10 @@ html {
     font-size: 10px;
 }
 
+h1, h3 {
+    font-weight: 600;
+}
+
 body {
     background-color: black;
     line-height: 1.2;
@@ -23,11 +27,11 @@ body {
     width: 100%;
 }
 
-.summary h1 {
+#summary h1 {
     padding-bottom: 2rem;
 }
 
-.summary h3 {
+#summary h3 {
     padding-bottom: 0.4rem;
 }
 
@@ -36,7 +40,7 @@ body {
     float: left;
 }
 
-.summary {
+#summary {
     width: 75%;
     margin: 0 auto;
     text-align: left;
@@ -97,13 +101,66 @@ ul li {
 
 .btn-view {
 background-color: #F3CE18;
+border: 1px solid #000;
 border-radius: 20px;
-width: 80%;
+width: 60%;
 height: 4rem; 
 text-align: center;
 padding-top: 10px;
 font-size: 16px;
 margin: 0 auto;
+}
+
+.sketch-img-ios {
+    background: url(/img/paper-sketch.png);
+    width: 90%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 32vh; 
+    margin: 0 auto;
+}
+
+.lowfi-ios {
+    background: url(/img/lowfi.png);
+    width: 90%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 32vh; 
+    margin: 0 auto;
+}
+
+.lowfi {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80rem;
+}
+
+.lowfi div {
+    width: 5%;
+}
+
+#low-left {
+    background: url(/img/lowfi-left.png);
+    width: 47.5%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+#low-right {
+    background: url(/img/low-fi2.png);
+    width: 47.5%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
 .btn-view:hover {
@@ -119,7 +176,7 @@ transition: .5s;
     transition: .5s;
 }
 
-.summary h3 {
+#summary h3 {
     font-size: 2.2rem;
 }
 
@@ -131,15 +188,15 @@ transition: .5s;
     padding-bottom: 9rem;
 }
 
-.summary h1, h3 {
+#summary h1, h3 {
     text-align: center;
 }
 
-.summary h1 {
+#summary h1 {
     font-size: 3.2rem;
 }
 
-.summary p {
+#summary p {
     font-size: 1.7rem;
     line-height: 1.5;
 }
@@ -227,16 +284,169 @@ div.polygon-overview {
 }
 */
 
-
-
-.problem-left, .usersurvey-left, .competitive{
+.problem-left, .usersurvey-left, .competitive, .design-updates{
     background-color: #fff;
-    width: 45%;
-    margin-left: 2.5%;
+    width: 47.5%;
     position: relative;
     margin-top: 3rem;
     float: left;
 }
+
+.userpersonas-left, .userstories-left, .wireframesketches-left {
+    background-color: #fff;
+    width: 47.5%;
+    position: relative;
+    margin-top: 3rem;
+    float: left;
+}
+
+.user-person {
+    display: inline-block;
+}
+
+.userpersonas-left .goals, .frustrations {
+    font-weight: 600;
+    width: 50%;
+    float: left;
+    height: 19rem;
+}
+
+.persona-lists {
+    width: 100%;
+    height: 100%;
+}
+
+.view-bio {
+    text-align: left;
+}
+
+.view-bio a {
+    font-size: 2rem;
+    color: black;
+}
+
+.view-bio a:hover {
+    color: yellow;
+}
+
+.userpersonas2-right .frustrations h3 {
+    padding-top: 50px;
+    padding-bottom: 3rem;
+}
+
+.userpersonas2-right .goals, .frustrations{
+    font-weight: 600;
+    width: 50%;
+    float: left;
+}
+
+#quote {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    font-family: serif;
+    font-style: oblique;
+    font-size: 24px;
+}
+
+#quote p {
+    float: center;
+}
+
+.goals li {
+    font-weight: 100;
+    padding-top: 5px;
+}
+
+.frustrations li {
+    padding-top: 5px;
+    font-weight: 100;
+}
+
+.user-city {
+    width: 100%;
+}
+
+.user {
+    width: 100%;
+}
+
+.user-img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+div .user-img {
+    float: right;
+    margin: 0 auto;
+}
+
+.user-main {
+    float: left;
+}
+
+.user-img img {
+    width: 150px;
+    height: 100px;
+    margin-left: -5px;
+    margin-top: -5px;
+    height: 115%;
+    width: 115%;
+}
+
+
+.user-info {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.user-info h1 {
+    padding-bottom: 1.3rem;
+}
+
+.user-city {
+   padding-top: -5px;
+}
+
+.user-city p {
+    float: right;
+    width: 0;
+    display: inline;
+    align-items: left;
+    position: relative;
+}
+
+.user-city img {
+    padding-right: 10px;
+    display: inline;
+    position: relative;
+    vertical-align: middle;
+}
+
+.competitive-wide, .designupdates-wide {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    float: left;
+}
+
+
+
+.designupdates-wide h3 {
+    padding-bottom: 1rem;
+}
+
 
 .full {
     width: 100%;
@@ -266,10 +476,6 @@ div.polygon-overview {
     color: white;
 }
 
-
-
-
-
 .magnify {
     margin-top: 2rem;
     background-color: #fff;
@@ -281,7 +487,7 @@ div.polygon-overview {
 }
 
 .magnify-text {
-    width: 49.85%;
+    width: 49%;
     height: 100%;
     padding: 2rem;
     display: inline-block;
@@ -317,24 +523,56 @@ div.polygon-overview {
 .mag-icons {
     float: right;
     display: inline-block;
-    width: 50.15%;
-    border-left: 4px #000 dashed;
+    width: 50%;
+}
+
+.dashed {
+    border-right: 4px #000 dashed;
+    margin-left: 0.2%;
+    height: 100%;
+    width: 1%;
+    display: inline-block;
+    position: absolute;
 }
 
 .competitor-img {
-    width: 45%;
-    margin-right: 2.5%;
     margin-top: 3rem;
-    height: 100%;
+    margin-right: 2.5%;
+    width: 47.5%;
+    display: inline-block;
     float: right;
 }
 
-.competitor-img img {
-    width: 65%;
-padding: 5rem;
-    float: left;
-    left: 25%;
+.designchanges-img {
+    margin-top: 3rem;
+    margin-right: 2.5%;
     margin: 0 auto;
+    width: 47.5%;
+    display: inline-block;
+    float: right;
+}
+
+.designchanges-img img {
+    width: 62.5%;
+    align-items: middle;
+    padding: 30px 0;
+    display: block;
+    margin: 0 auto;
+}
+
+#designchanges2 {
+    display: inline-block;
+    position: absolute;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.competitor-img img {
+    width: 30rem;
+    padding: 40px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mag-icons img {
@@ -405,8 +643,7 @@ padding: 5rem;
 
 .problem p {
     font-size: 1.6rem;
-    padding-bottom: 1.5rem;
-    
+    padding-bottom: 1.5rem;  
 }
 
 .problem h1 {
@@ -450,13 +687,70 @@ ul {
     display: inline-block;
 }
 
-.solution-right, .targetaudience-right{
+.solution-right, .targetaudience-right, .userpersonas2-right{
     margin-top: 3rem;
     background-color: #fff;
-    width: 45%;
+    width: 47.5%;
     position: relative;
     float: right;
-    right: 2.5%;
+}
+
+.userflows-right {
+    margin-top: 3rem;
+    background-color: #fff;
+    width: 47.5%;
+    position: relative;
+    float: right;
+}
+
+.lowfi-right {
+    margin-top: 3rem;
+    width: 47.5%;
+    position: relative;
+    float: right;
+}
+
+.userstories-left .h1-text {
+    padding-bottom: 3rem;
+}
+
+.user-flow-map {
+    margin-top: 3rem;
+    background-color: #fff;
+    width: 100%;
+    height: 80rem;
+    position: relative;
+    display: inline-block;
+    float: left;
+    z-index: 1;
+}
+
+.user-flow-map img{
+    width: 100%;
+    padding: 4rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.user-flow-map h1{
+    font-size: 21px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.user-flow-map p{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.userflows-right .h1-text {
+    padding-bottom: 3rem;
+}
+
+.view-stories-btn, .view-flows-btn {
+    padding-bottom: 35px;
 }
 
 .targetaudience-right img {
@@ -494,9 +788,9 @@ ul {
 
 .solution h3 {
     font-size: 1.8rem;
-    -webkit-text-stroke-width: 1px;
+    text-align: left;
+    /*-webkit-text-stroke-width: 1px; */
     -webkit-text-stroke-color: black;
-    padding-bottom: 5px;;
 }
 
 
@@ -571,6 +865,14 @@ ul {
         float: right;
     }
 
+  h3 {
+        text-align: left;
+    }
+
+    .competitive {
+        display: inline-block;
+    }
+
     .cut-poly-left, .cut-poly-right, .survey-target {
         display: none;
     }
@@ -609,7 +911,7 @@ ul {
   }
 
   @media screen and (min-width: 1000px) {
-    .summary {
+    #summary {
         width: 50%;
     }
 
