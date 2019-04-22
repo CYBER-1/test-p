@@ -415,6 +415,10 @@ div.btn {
     text-align: center;
     display: block;
 }
+
+.cs-text h1 {
+    font-size: 65px;
+}
       
 .myname {
     border-bottom: 1px solid #fff;
@@ -526,6 +530,10 @@ h1, h3, p {
         text-align: center;
         padding: 7.5px;
         width: 100%;
+    }
+
+    .cs-text h1 {
+        font-size: 80px;
     }
 
     .home-about-me {

@@ -1006,6 +1006,7 @@ ul {
     .design-process  {
         padding-left: 4rem;
     }
+    
 
 
   @media screen and ( max-width: 600px) {
@@ -1180,6 +1181,7 @@ ul {
     .competitive {
         display: inline-block;
     }
+    
 
     .cut-poly-left, .cut-poly-right, .survey-target {
         display: none;
@@ -1207,10 +1209,6 @@ ul {
   @media screen and (min-width: 780px) {
 .h1-shape-left, .h1-shape-right {
     display: none;
-}
-
-.user-main {
-    float: none;
 }
 
   }

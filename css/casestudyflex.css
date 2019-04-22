@@ -10,7 +10,7 @@
   
   .navbar {
     position: absolute;
-    font-size: 1.8rem;
+    font-size: 3.2rem;
     right: 0;
     left: 0;
     background-image: transparent;
@@ -35,7 +35,7 @@
     top: 2.5rem;
     right: 2rem;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 32px;
   }
   
   .nav-links,
