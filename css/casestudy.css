@@ -912,7 +912,7 @@ ul {
     width: 3px;
     margin: auto;
     background-color: #ccc;
-    height: 8000px;
+    height: 7800px;
   }
 
   .line {
@@ -1002,6 +1002,10 @@ ul {
     background-image: url(/img/36-Create\ a\ folder\ added\ files.png);
 }
 
+@media screen and (max-width: 500px) {
+    .design-process  {
+        padding-left: 4rem;
+    }
 
 
   @media screen and ( max-width: 600px) {
@@ -1085,7 +1089,7 @@ ul {
     }
 
     #line {
-        height: 11000px;
+        height: 13000px;
     }
 
 
@@ -1198,21 +1202,15 @@ ul {
     .solution {
         float: left;
     }
-
-  }
-
-  @media screen and (max-width: 500px) {
-    .design-process  {
-        padding-left: 4rem;
-    }
-
-    #line {
-        height: 12000px;
   }
 
   @media screen and (min-width: 780px) {
 .h1-shape-left, .h1-shape-right {
     display: none;
+}
+
+.user-main {
+    float: none;
 }
 
   }
@@ -1221,7 +1219,6 @@ ul {
     #summary {
         width: 50%;
     }
-
   }
   
 
