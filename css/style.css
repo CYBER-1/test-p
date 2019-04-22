@@ -299,6 +299,18 @@ div.btn {
 }
 
 .earth {
+    position: absolute;
+}
+
+.earth img {
+    width: 50rem;
+    position: absolute;
+    float: left;
+}
+
+
+.waves img {
+    width: 100%;
 
 }
 
