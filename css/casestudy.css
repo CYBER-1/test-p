@@ -127,12 +127,22 @@ margin: 0 auto;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 32vh; 
+    height: 35vh; 
+    margin: 0 auto;
+}
+
+.logoideation {
+    background: url(/img/logo-sketches.png);
+    width: 90%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 55vh; 
     margin: 0 auto;
 }
 
 .lowfi {
-    padding-top: 5rem;
+    padding-top: 3rem;
     display: flex;
     align-items: center;
     width: 100%;
@@ -161,6 +171,10 @@ margin: 0 auto;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
+}
+
+#list-align {
+    padding-top: 15rem;
 }
 
 .btn-view:hover {
@@ -220,6 +234,10 @@ transition: .5s;
     padding-top: 2rem;
 }
 
+.cs-main-body {
+    height: 8000px;
+}
+
 .start-poly img {
     width: 100%;
     height: 8rem;
@@ -235,6 +253,23 @@ transition: .5s;
     position: flex;
     margin-top: 10vh;
     z-index: 1;
+}
+
+.backtotop-btn img {
+    width: 100%;
+    height: 5rem;
+    display: block;
+    position: relative;
+    float: left;
+    position: flex;
+    margin-top: 10vh;
+    z-index: 1;
+    transform-origin: 50% 50%;
+    margin-bottom: 7rem;
+}
+
+.backtotop-btn img:hover {
+    transform: scale(0.97);
 }
 
 .problem-solution-poly img {
@@ -256,6 +291,17 @@ transition: .5s;
     position: relative;
     float: left;
     margin-top: 7vh;
+    z-index: 1;
+}
+
+.wireframe-examples img {
+
+    height: 5.5rem;
+    width: 5%;
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 2.5vh;
     z-index: 1;
 }
 
@@ -292,11 +338,18 @@ div.polygon-overview {
     float: left;
 }
 
-.userpersonas-left, .userstories-left, .wireframesketches-left {
+.userpersonas-left, .userstories-left {
     background-color: #fff;
     width: 47.5%;
     position: relative;
     margin-top: 3rem;
+    float: left;
+}
+
+.wireframesketches-left {
+    background-color: #fff;
+    width: 47.5%;
+    position: relative;
     float: left;
 }
 
@@ -400,6 +453,41 @@ div .user-img {
     width: 115%;
 }
 
+#user-info {
+    padding-top: 0;
+}
+
+.logo-image-container {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img-1 {
+    background-image: url(/img/logo-1.png);
+    width: 49%;
+    margin-right: 1%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 1rem;
+}
+.logo-img-2 {
+    background-image: url(/svgs/logo-2.svg);
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 1%;
+}
 
 .user-info {
     width: 60%;
@@ -434,10 +522,10 @@ div .user-img {
 }
 
 .competitive-wide, .designupdates-wide {
+    margin-top: 3rem;
     width: 100%;
     position: relative;
     display: inline-block;
-    height: 100%;
     float: left;
 }
 
@@ -479,7 +567,6 @@ div .user-img {
 .magnify {
     margin-top: 2rem;
     background-color: #fff;
-    height: 100%;
     width: 100%;
     display: inline-block;
     position: relative;
@@ -562,8 +649,6 @@ div .user-img {
 
 #designchanges2 {
     display: inline-block;
-    position: absolute;
-    padding-top: 3rem;
     width: 100%;
 }
 
@@ -608,6 +693,7 @@ div .user-img {
     text-align: center;
 }
 
+/*
 .h1-shape-left {
     background-color: #F3CE18;
     float: left;
@@ -617,6 +703,7 @@ div .user-img {
     height: 2.6rem;
     display: inline-block;
 }
+*/
 
 .cut-poly-left {
     background-color: black;
@@ -704,7 +791,16 @@ ul {
 }
 
 .lowfi-right {
-    margin-top: 3rem;
+    width: 47.5%;
+    position: relative;
+    float: right;
+}
+
+#back-to-top img {
+    margin-bottom: 8rem;
+}
+
+.logoideation-right {
     width: 47.5%;
     position: relative;
     float: right;
@@ -718,7 +814,7 @@ ul {
     margin-top: 3rem;
     background-color: #fff;
     width: 100%;
-    height: 80rem;
+    height: auto;
     position: relative;
     display: inline-block;
     float: left;
@@ -815,9 +911,7 @@ ul {
     width: 3px;
     margin: auto;
     background-color: #ccc;
-  }
-  #line {
-    height: 8000px;
+    height: 7340px;
   }
 
   .line {
@@ -825,7 +919,167 @@ ul {
   }
 
 
+
+.slider {
+  /* line them up horizontally */
+  padding-top: 3rem;
+  display: flex;
+  position: relative;
+  float: left;
+  width: 100%;
+  z-index: 1;
+
+  /* allow for scrolling */
+  overflow-x: auto;
+
+  /* make it smooth on iOS */
+  -webkit-overflow-scrolling: touch;
+}
+.slider > div {
+  /* make sure the width is honored */
+  flex-shrink: 0;
+  width: 300px;
+  height: 600px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.slider {
+  /* ... */
+  /* each slide snaps into place */
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+}
+
+
+.slider #slide1 {
+    background-image: url(/img/1-Loading\ Screen.png);
+}
+
+.slider #slide2 {
+    background-image: url(/img/2-Log\ In.png);
+}
+.slider #slide3 {
+    background-image: url(/img/8-Empty\ Dashboard.png);
+}
+.slider #slide4 {
+    background-image: url(/img/11-Create:\ File\ Types.png);
+}
+.slider #slide5 {
+    background-image: url(/img/12-Untitled\ Document.png);
+}
+.slider #slide6 {
+    background-image: url(/img/13-Settings.png);
+}
+.slider #slide7 {
+    background-image: url(/img/14-Public\ Account\ Empty.png);
+}
+.slider #slide8 {
+    background-image: url(/img/17-Public\ Account\ Filled.png);
+}
+.slider #slide9 {
+    background-image: url(/img/22-SEARCH\ BY\ PHONE\ NUMBER.png);
+}
+.slider #slide10 {
+    background-image: url(/img/25-JOINED\ TEAM.png);
+}
+.slider #slide11 {
+    background-image: url(/img/26-Versioning.png);
+}
+.slider #slide12 {
+    background-image: url(/img/28-People.png);
+}
+.slider #slide13 {
+    background-image: url(/img/29-Sisters\ Share.png);
+}
+.slider #slide14 {
+    background-image: url(/img/31-Storage\ with\ Files\ from\ Phone.png);
+}
+.slider #slide15 {
+    background-image: url(/img/36-Create\ a\ folder\ added\ files.png);
+}
+
+
+
   @media screen and ( max-width: 600px) {
+
+    .magnify {
+        width: 90%;
+        float: right;
+    }
+
+    .dashed {
+        display: none;
+    }
+
+    .magnify-text {
+        width: 100%;
+    }
+
+    .mag-icons {
+        display: block;
+        width: 100%;
+    }
+
+    .mag-icons img {
+        padding-top: 0;
+    }
+
+    .competitor-img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .userpersonas-left, .userpersonas2-right {
+        width: 90%;
+        float: right;
+    }
+
+    .wireframesketches-left {
+        width: 100%;
+    }
+
+    .userstories-left, .userflows-right {
+        width: 45%;
+    }
+
+    .userstories-left {
+        margin-left: 9%;
+    }
+
+    .user-flow-map {
+        width: 90%;
+        float: right;
+    }
+
+    .user-flow-map h3 {
+        text-align: center;
+    }
+
+    .competitive-wide {
+        width: 90%;
+        float: right;
+    }
+
+    .lowfi-right{
+        padding-top: 3rem;
+        width: 90%;
+        float: right;
+    }
+
+    .wireframe-examples {
+        display: none;
+    }
+
+    .user-main {
+        float: none;
+    }
+
+    div .user-img {
+        float: none;
+    }
+
     .btn-ios {
         margin-left: 7.5%;
         width: 40%;
@@ -916,6 +1170,7 @@ ul {
     }
 
   }
+  
 
 
 

@@ -15,13 +15,27 @@
     left: 0;
     background-image: transparent;
     border: none;
-    height: 10vh;
+    height: 11vh;
+    }
+
+    .navbar-logo img:hover {
+      opacity: .5;
+      transition: .5s;
     }
   
   .main-nav {
     list-style-type: none;
+    height: 10000vh;
     display: none;
     background-color: #000;
+  }
+
+  .main-nav i {
+    color: white;
+    top: 2.5rem;
+    right: 2rem;
+    cursor: pointer;
+    font-size: 24px;
   }
   
   .nav-links,
@@ -53,8 +67,8 @@
     font-size: 24px;
   }
 
-  i:hover {
-      color: black;
+.main-nav i:hover {
+      color: #F3CE18;
       transition: 0.4s;
   }
   
@@ -64,7 +78,11 @@
   
   #chkToggle:checked + ul.main-nav {
     display: block;
+    margin-top: -65px;
+    padding-top: 0rem;
   }
+
+  
   
   @media screen and (min-width: 2268px) {
     .navbar {
@@ -97,6 +115,7 @@
     .logo {
       margin-top: 0;
     }
+
   
     .navbar-toggle {
       display: none;
