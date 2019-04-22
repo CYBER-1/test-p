@@ -31,7 +31,8 @@
   
   .main-nav li {
     text-align: center;
-    margin: 1.5rem auto;
+    margin: 0 auto;
+    padding-top: 2rem;
   }
   
   .logo {
@@ -71,8 +72,9 @@
       background-color: black;
       height: 55rem;
       z-index: 1;
-      padding-top: 21rem;
+      padding-top: 20rem;
     }
+
   }
 
   

@@ -22,7 +22,6 @@ body {
 }
 
 .container {
-    overflow-x: hidden;
     background-color: transparent;
     margin: 0 auto;
     width: 100%;
