@@ -307,7 +307,7 @@ div.btn {
 
 
 #cs1, #cs2, #cs3 { 
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.png' no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.png') no-repeat center center fixed;
 }
 
 #cs1:hover, #cs2:hover, #cs3:hover {
