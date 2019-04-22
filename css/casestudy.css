@@ -1006,6 +1006,13 @@ ul {
 
   @media screen and ( max-width: 600px) {
 
+    .half, .half2 {
+        width: 90%;
+        float: right;
+        margin-bottom: 3rem;
+        padding-right: 2rem;
+    }
+
 
     .low-left {
         display: inline;
