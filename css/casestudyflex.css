@@ -52,7 +52,7 @@
   
   .logo {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-left: 2rem;
     height: 50px;
     width: 64px;
@@ -78,7 +78,7 @@
   
   #chkToggle:checked + ul.main-nav {
     display: block;
-    margin-top: -65px;
+    margin-top: -68px;
     padding-top: 0rem;
   }
 
