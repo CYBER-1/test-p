@@ -404,6 +404,12 @@ div.btn {
     background-image: url(/img/hyve.png);
 }
 
+@media screen and (max-width: 799px) {
+
+a {
+    font-size: 1.8rem;
+  }
+}
 
 
 @media screen and (min-width: 368px) {
