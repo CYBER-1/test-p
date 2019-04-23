@@ -760,8 +760,12 @@ ul {
     list-style-type: disc;
     font-size: 1.6rem;
     padding-bottom: 1.5rem;
-    padding-left: 2rem;
   }
+
+.solution-body ul, .magnify-text ul, .problem-body ul {
+        padding-left: 2rem;
+}
+
 
 .h1-shape-right {
     background-color: #F3CE18;
