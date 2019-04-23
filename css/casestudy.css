@@ -758,10 +758,9 @@ div .user-img {
 
 ul {
     list-style-type: disc;
-    list-style-position: inside;
     font-size: 1.6rem;
     padding-bottom: 1.5rem;
-    
+    padding-left: 2rem;
   }
 
 .h1-shape-right {
