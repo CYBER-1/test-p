@@ -503,10 +503,6 @@ h1, h3, p {
     margin-left: 0.2rem;
     color: #ffffff;
 }
-#cs1, #cs2, #cs3 {
-    background-attachment: scroll;
-    background-size: cover;
-}
 
 }
 
@@ -529,12 +525,6 @@ h1, h3, p {
         height: 8rem;
         position: absolute;
         bottom: 0;
-    }
-
-    #cs1, #cs2, #cs3 {
-        background-attachment: scroll;
-        background-size: cover;
-
     }
 }
 
