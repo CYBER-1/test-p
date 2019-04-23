@@ -303,9 +303,6 @@ div.btn {
     padding-top: 36.5vh;
 }
 
-
-
-
 #cs1 { 
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.png') no-repeat center center fixed;
 }
@@ -410,7 +407,6 @@ a {
     font-size: 1.8rem;
   }
 }
-
 
 @media screen and (min-width: 368px) {
     section {

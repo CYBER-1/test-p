@@ -410,11 +410,11 @@ div.polygon-overview {
 
 .goals li {
     font-weight: 100;
-    padding-top: 5px;
+   /* padding-top: 5px; */
 }
 
 .frustrations li {
-    padding-top: 5px;
+   /* padding-top: 5px;*/
     font-weight: 100;
 }
 
@@ -436,12 +436,11 @@ div.polygon-overview {
 }
 
 div .user-img {
-    float: right;
     margin: 0 auto;
 }
 
 .user-main {
-    float: left;
+    padding-bottom: 1rem;
 }
 
 .user-img img {
@@ -493,7 +492,6 @@ div .user-img {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
@@ -844,12 +842,16 @@ ul {
     text-align: center;
 }
 
+.user-flow-map h3 {
+    font-size: 17px;
+}
+
 .userflows-right .h1-text {
     padding-bottom: 3rem;
 }
 
 .view-stories-btn, .view-flows-btn {
-    padding-bottom: 3px;
+    padding-bottom: 2rem;
     margin: 0 auto;
 }
 
@@ -1003,6 +1005,23 @@ ul {
 }
 .slider #slide15 {
     background-image: url(/img/36-Create\ a\ folder\ added\ files.png);
+}
+
+@media screen and (min-width: 800px) {
+#summary {
+    width: 70rem;
+}
+
+.btn-ios {
+    margin-left: 22.5%;
+    width: 25%;
+}
+
+.btn-desk {
+    margin-right: 22.5%;
+    width: 25%;
+}
+
 }
 
 @media screen and (max-width: 500px) {
