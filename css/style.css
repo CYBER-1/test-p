@@ -505,6 +505,7 @@ h1, h3, p {
 }
 #cs1, #cs2, #cs3 {
     background-attachment: scroll;
+    background-size: cover;
 }
 
 }
@@ -532,6 +533,8 @@ h1, h3, p {
 
     #cs1, #cs2, #cs3 {
         background-attachment: scroll;
+        background-size: cover;
+
     }
 }
 
