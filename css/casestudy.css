@@ -25,6 +25,7 @@ body {
     background-color: transparent;
     margin: 0 auto;
     width: 100%;
+    overflow: hidden;
 }
 
 #summary h1 {
@@ -232,6 +233,7 @@ transition: .5s;
 
 .cs-main-body {
     padding-top: 2rem;
+    
 }
 
 .cs-main-body {
@@ -781,6 +783,7 @@ ul {
     width: 47.5%;
     position: relative;
     float: right;
+    overflow: hidden;
 }
 
 .userflows-right {
@@ -823,8 +826,9 @@ ul {
 }
 
 .user-flow-map img{
-    width: 100%;
+    width: 90%;
     padding: 4rem;
+    display: flex;
     margin: 0 auto;
     position: relative;
 }
@@ -833,6 +837,7 @@ ul {
     font-size: 21px;
     text-align: center;
     padding-top: 20px;
+    margin-left: 5%;
 }
 
 .user-flow-map p{
