@@ -632,7 +632,7 @@ div .user-img {
 
 .magnify-text {
     width: 49%;
-    height: 100%;
+    height: auto;
     padding: 2rem;
     display: inline-block;
     text-align: left;
