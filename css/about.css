@@ -5,12 +5,9 @@
     overflow: hidden;
 }
 
-#arrow1 {
-    display: none;
-}
-
 .bio {
-    background-color: red;
+    display: inline;
+    background-color: #000;
     width: 90%;
     max-width: 60rem;
     height: auto;
@@ -20,16 +17,26 @@
     z-index: 1;
 }
 
+.waves img {
+    z-index: 0;
+}
+
+section.hero p {
+    line-height: 1.6;
+}
+
 .earth img {
-    max-width: 35rem;
+    width: 30rem;
     position: relative;
     float: right;
-    right: 10%;
+    right: 15rem;
     top: 5rem;
 }
 
+
+
 .footer {
-    position: relative;
+    border: none;
 }
 
 .waves {
@@ -39,3 +46,4 @@
 .bio h1, p {
     text-align: left;
 }
+

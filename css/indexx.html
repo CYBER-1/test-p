@@ -125,27 +125,6 @@ font-size: 16px;
 margin: 0 auto;
 }
 
-.problem a {
-    text-decoration: none;
-    color: #000;
-}
-
-.solution a {
-    text-decoration: none;
-    color: #000;
-}
-
-
-.problem a:visited {
-    color: black;
-}
-
-.solution a:visited {
-    color: black;
-}
-
-
-
 .sketch-img-ios {
     background: url(/img/paper-sketch.png);
     width: 90%;
@@ -319,6 +298,7 @@ transition: .5s;
 }
 
 .survey-target img {
+
     height: 5.5rem;
     width: 5%;
     display: block;
@@ -415,11 +395,6 @@ margin-left: 12.5%;
     height: 19rem;
 }
 
-#user-list {
-    height: auto;
-    display: inline-block;
-}
-
 .persona-lists {
     width: 100%;
     height: 100%;
@@ -427,8 +402,6 @@ margin-left: 12.5%;
 
 .view-bio {
     text-align: left;
-    display: block;
-    width: 100%;
 }
 
 .view-bio a {
@@ -456,7 +429,6 @@ margin-left: 12.5%;
     height: auto;
     margin: 0 auto;
     padding: 20px;
-    padding-bottom: 3rem;
     position: relative;
     font-family: serif;
     font-style: oblique;
@@ -799,7 +771,7 @@ div .user-img {
 }
 
 .problem h3 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     text-align: left;
 }
 
@@ -991,7 +963,7 @@ ul {
     width: 3px;
     margin: auto;
     background-color: #ccc;
-    height: 8700px;
+    height: 7800px;
   }
 
   .line {
@@ -1098,6 +1070,12 @@ ul {
 
 }
 
+@media screen and (min-width: 800px) and (max-width: 1000px){
+
+#line {
+    height: 9000px;
+}
+
 @media screen and (max-width: 500px) {
     .design-process  {
         padding-left: 4rem;
@@ -1106,10 +1084,6 @@ ul {
 
 
   @media screen and ( max-width: 600px) {
-
-    .userflows-right {
-        margin-right: 0;
-    }
 
     .half, .half2 {
         width: 90%;
@@ -1162,7 +1136,7 @@ ul {
     }
 
     .userstories-left, .userflows-right {
-        width: 90%;
+        width: 44%;
     }
 
     .wireframesketches-left {
@@ -1318,15 +1292,3 @@ ul {
         width: 50%;
     }
   }
-
-
-
-
-
-
-
-
-
-
-  
-
