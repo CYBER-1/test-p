@@ -41,6 +41,11 @@ h3 {
     margin-top: 15rem;
 }
 
+.btn {
+        text-shadow: none;
+    }    
+
+
 
 
 section {
@@ -160,6 +165,7 @@ section.hero {
 
 a:-webkit-any-link {
     cursor: pointer;
+    text-shadow: none;
 }    
 
 a {
@@ -211,6 +217,14 @@ a:hover  {
     -webkit-transition: opacity .7s;
     transition: opacity .7s;
 } 
+
+.btn {
+    opacity: 1;
+}
+
+.btn:hover {
+    border: 1px solid gray;
+}
 
 /*
 #topname {
@@ -304,26 +318,26 @@ div.btn {
 }
 
 #cs1 { 
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/hyve.png') no-repeat center center fixed;
 }
 
 #cs2 { 
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/BusyBus.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/BusyBus.png') no-repeat center center fixed;
 }
 
 #cs3 { 
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/code.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/code.png') no-repeat center center fixed;
 }
 
 #cs1:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.25)), url('/img/hyve.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.png') no-repeat center center fixed;
 }
 
 #cs2:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.25)), url('/img/BusyBus.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(5, 1, 1, 0.25), rgba(0, 0, 0, 0.25)), url('/img/BusyBus.png') no-repeat center center fixed;
 }
 #cs3:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.25)), url('/img/code.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/code.png') no-repeat center center fixed;
 }
 
 .shade {
@@ -420,6 +434,7 @@ a {
 
 .cs-text h1 {
     font-size: 65px;
+    font-size: calc(4rem + 3vmax);
 }
       
 .myname {
@@ -455,16 +470,15 @@ h1, h3, p {
 }
 
 #cs1, #cs2, #cs3 {
-    width: 85%;
-    height: 60vh;
+    width: 65%;
+    max-width: 800px;
+    height: 51vh;
 }
 
 .social ul li a i {
     font-size: 25px;
     line-height: 25px;
 }
-
-
 
 .social {
     width: 100%;
@@ -502,6 +516,18 @@ h1, h3, p {
 
 }
 
+@media screen and (max-width: 500px) {
+
+    .cs-text {
+        margin-left: -15%;
+    }
+
+    .btn {
+        width: calc(26rem + 1.2vmax);
+    }
+    
+}
+
 @media screen and (max-width: 800px) {
 
     .earth img {
@@ -534,10 +560,6 @@ h1, h3, p {
         width: 100%;
     }
 
-    .cs-text h1 {
-        font-size: 80px;
-    }
-
     .home-about-me {
         width: 75%;
     }
@@ -547,11 +569,12 @@ h1, h3, p {
 
     .cs-text {
         margin-top: 8rem;
+        margin-left: -15%;
     }
 
     #cs1, #cs2, #cs3 {
-        width: 80%;
-        height: 70vh;
+        width: 65%;
+        height: 63vh;
     }
 }
 
@@ -579,8 +602,8 @@ span {
     }
 
     #cs1, #cs2, #cs3 {
-        height: 80vh;
-        width: 85%;
+        height: 70vh;
+        width: 65%;
     }
 
     .myname, .designer {
@@ -594,9 +617,6 @@ span {
 }
 
 @media screen and (min-width: 1000px) {
-    section {
-        /*background-color: teal;*/
-    }
 
     h1, h3, p {
         width: 100%;
@@ -607,7 +627,6 @@ span {
 }
 
     div.cs-text {
-        margin-left: -10rem;
         float: left;
     }
 
@@ -628,11 +647,12 @@ span {
 
       .cs-text {
         margin-top: 13rem;
+        margin-left: -10%;
     }
 
     #cs1, #cs2, #cs3 {
         width: 70%;
-        height: 90vh;
+        height: 79vh;
     }
 
     .myname, .designer {

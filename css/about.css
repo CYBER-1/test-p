@@ -1,3 +1,41 @@
 @import url("/css/stars.css");
-@import url("/css/style.css");
+@import url("/css/style.css");  
 
+.hero {
+    overflow: hidden;
+}
+
+#arrow1 {
+    display: none;
+}
+
+.bio {
+    background-color: red;
+    width: 90%;
+    max-width: 60rem;
+    height: auto;
+    position: absolute;
+    margin-left: 5%;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.earth img {
+    max-width: 35rem;
+    position: relative;
+    float: right;
+    right: 10%;
+    top: 5rem;
+}
+
+.footer {
+    position: relative;
+}
+
+.waves {
+    z-index: 2;
+}
+
+.bio h1, p {
+    text-align: left;
+}
