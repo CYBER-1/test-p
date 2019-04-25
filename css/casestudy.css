@@ -14,7 +14,7 @@ h1, h3 {
 
 body {
     background-color: black;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 .design-deliverables {
@@ -718,7 +718,7 @@ div .user-img {
 }
 
 .problem .problem-body {
-    padding: 2rem;
+    padding: 2rem 2rem 3rem;
 }
 
 .ln-problem-left {
@@ -869,7 +869,7 @@ ul {
 }
 
 .solution .solution-body {
-    padding: 2rem;
+    padding: 2rem 2rem 3rem;
 }
 
 .ln-solution-right {
