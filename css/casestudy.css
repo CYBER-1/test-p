@@ -1155,6 +1155,7 @@ ul {
     .userpersonas-left, .userpersonas2-right {
         width: 90%;
         float: right;
+        margin-right: 0;
     }
 
     .wireframesketches-left {
@@ -1190,7 +1191,7 @@ ul {
     }
 
     #line {
-        height: 13000px;
+        height: 15000px;
     }
 
 
@@ -1291,6 +1292,7 @@ ul {
         background-color:#F8F8F8;
         width: 90%;
         position: initial;
+        margin-right: 0;
     }
 
     .design-process  {
