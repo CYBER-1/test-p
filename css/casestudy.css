@@ -157,7 +157,7 @@ margin: 0 auto;
 }
 
 .lowfi-ios {
-    background: url(/img/lowfi.png);
+    background: url(/img/lowfi.webp);
     width: 90%;
     background-position: center;
     background-size: contain;
@@ -189,7 +189,7 @@ margin: 0 auto;
 }
 
 #low-left {
-    background: url(/img/lowfi-left.png);
+    background: url(/img/lowfi-left.webp);
     width: 47.5%;
     height: 100%;
     background-position: center;
