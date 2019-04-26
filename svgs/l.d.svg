@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="69px" height="77px" viewBox="0 0 69 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>Group 96</title>
+    <title>Group 141</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Version-1" transform="translate(-665.000000, -12391.000000)">
+        <g id="Version-1" transform="translate(-665.000000, -12391.000000)" fill-rule="nonzero">
             <g id="Group-96" transform="translate(662.000000, 12394.000000)">
-                <polygon id="Polygon" stroke="#FFFFFF" stroke-width="4" fill="#F3CE18" fill-rule="nonzero" points="37.5 0 69.9759526 17.75 69.9759526 53.25 37.5 71 5.02404736 53.25 5.02404736 17.75"></polygon>
-                <text id="L.D" font-family="SFProText-Medium, SF Pro Text" font-size="32" font-weight="400" letter-spacing="0.600000024" fill="#000000">
-                    <tspan x="11" y="47">L.D</tspan>
-                </text>
+                <g id="Group-141">
+                    <polygon id="Polygon" stroke="#FFFFFF" stroke-width="4" fill="#F3CE18" points="37.5 0 69.9759526 17.75 69.9759526 53.25 37.5 71 5.02404736 53.25 5.02404736 17.75"></polygon>
+                    <path d="M27.890625,43.78125 L27.890625,47 L13.828125,47 L13.828125,24.453125 L17.328125,24.453125 L17.328125,43.78125 L27.890625,43.78125 Z M35.13125,47.265625 C33.81875,47.265625 32.834375,46.25 32.834375,44.9375 C32.834375,43.625 33.81875,42.609375 35.13125,42.609375 C36.459375,42.609375 37.428125,43.625 37.428125,44.9375 C37.428125,46.25 36.459375,47.265625 35.13125,47.265625 Z M43.590625,24.453125 L51.73125,24.453125 C58.41875,24.453125 62.340625,28.5625 62.340625,35.65625 C62.340625,42.859375 58.45,47 51.73125,47 L43.590625,47 L43.590625,24.453125 Z M47.090625,27.640625 L47.090625,43.8125 L51.340625,43.8125 C56.059375,43.8125 58.778125,40.875 58.778125,35.703125 C58.778125,30.609375 56.0125,27.640625 51.340625,27.640625 L47.090625,27.640625 Z" id="L.D" fill="#000000"></path>
+                </g>
             </g>
         </g>
     </g>

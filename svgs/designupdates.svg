@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="69px" height="77px" viewBox="0 0 69 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>Group 96</title>
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 140</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Version-1" transform="translate(-665.000000, -11331.000000)">
+        <g id="Version-1" transform="translate(-665.000000, -11331.000000)" fill-rule="nonzero">
             <g id="Group-96" transform="translate(662.000000, 11334.000000)">
-                <polygon id="Polygon" stroke="#FFFFFF" stroke-width="4" fill="#F3CE18" fill-rule="nonzero" points="37.5 0 69.9759526 17.75 69.9759526 53.25 37.5 71 5.02404736 53.25 5.02404736 17.75"></polygon>
-                <text id="D.U" font-family="SFProText-Medium, SF Pro Text" font-size="32" font-weight="400" letter-spacing="0.600000024" fill="#000000">
-                    <tspan x="9" y="47">D.U</tspan>
-                </text>
+                <g id="Group-140">
+                    <polygon id="Polygon" stroke="#FFFFFF" stroke-width="4" fill="#F3CE18" points="37.5 0 69.9759526 17.75 69.9759526 53.25 37.5 71 5.02404736 53.25 5.02404736 17.75"></polygon>
+                    <path d="M11.828125,24.453125 L19.96875,24.453125 C26.65625,24.453125 30.578125,28.5625 30.578125,35.65625 C30.578125,42.859375 26.6875,47 19.96875,47 L11.828125,47 L11.828125,24.453125 Z M15.328125,27.640625 L15.328125,43.8125 L19.578125,43.8125 C24.296875,43.8125 27.015625,40.875 27.015625,35.703125 C27.015625,30.609375 24.25,27.640625 19.578125,27.640625 L15.328125,27.640625 Z M36.646875,47.265625 C35.334375,47.265625 34.35,46.25 34.35,44.9375 C34.35,43.625 35.334375,42.609375 36.646875,42.609375 C37.975,42.609375 38.94375,43.625 38.94375,44.9375 C38.94375,46.25 37.975,47.265625 36.646875,47.265625 Z M47.29375,24.453125 L47.29375,38.921875 C47.29375,42.078125 49.340625,44.265625 52.91875,44.265625 C56.5125,44.265625 58.559375,42.078125 58.559375,38.921875 L58.559375,24.453125 L62.059375,24.453125 L62.059375,39.234375 C62.059375,44.125 58.575,47.546875 52.91875,47.546875 C47.2625,47.546875 43.79375,44.125 43.79375,39.234375 L43.79375,24.453125 L47.29375,24.453125 Z" id="D.U" fill="#000000"></path>
+                </g>
             </g>
         </g>
     </g>
