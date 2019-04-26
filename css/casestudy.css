@@ -930,7 +930,7 @@ ul {
 }
 
 .targetaudience-right img {
-    height: 5rem;
+    height: auto;
     width: 7rem;
     display: block;
     position: relative;
