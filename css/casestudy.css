@@ -147,7 +147,7 @@ margin: 0 auto;
 
 
 .sketch-img-ios {
-    background: url(/img/paper-sketch.webp);
+    background: url(/img/paper-sketch.png);
     width: 90%;
     background-position: center;
     background-size: contain;
@@ -157,7 +157,7 @@ margin: 0 auto;
 }
 
 .lowfi-ios {
-    background: url(/img/lowfi.webp);
+    background: url(/img/lowfi.png);
     width: 90%;
     background-position: center;
     background-size: contain;
@@ -167,7 +167,7 @@ margin: 0 auto;
 }
 
 .logoideation {
-    background: url(/img/logo-sketches.webp);
+    background: url(/img/logo-sketches.png);
     width: 90%;
     background-position: center;
     background-size: contain;
@@ -189,7 +189,7 @@ margin: 0 auto;
 }
 
 #low-left {
-    background: url(/img/lowfi-left.webp);
+    background: url(/img/lowfi-left.png);
     width: 47.5%;
     height: 100%;
     background-position: center;
@@ -199,7 +199,7 @@ margin: 0 auto;
 }
 
 #low-right {
-    background: url(/img/low-fi2.webp);
+    background: url(/img/low-fi2.png);
     width: 47.5%;
     height: 100%;
     background-position: center;
@@ -523,7 +523,7 @@ div .user-img {
 }
 
 .logo-img-1 {
-    background-image: url(/img/logo-1.webp);
+    background-image: url(/img/logo-1.png);
     width: 49%;
     margin-right: 1%;
     height: 100%;
