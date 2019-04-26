@@ -422,6 +422,33 @@ a {
   }
 }
 
+@media only screen and (min-width : 150px) and (max-width : 780px) {
+    #cs1 { 
+        background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/hyve.png') no-repeat center center;
+    }
+    
+    #cs2 { 
+        background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/BusyBus.png') no-repeat center center;
+    }
+    
+    #cs3 { 
+        background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/code.png') no-repeat center center;
+    }
+
+    #cs1:hover {
+        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.png') no-repeat center center;
+    }
+    
+    #cs2:hover {
+        background: linear-gradient(rgba(5, 1, 1, 0.25), rgba(0, 0, 0, 0.25)), url('/img/BusyBus.png') no-repeat center center;
+    }
+    #cs3:hover {
+        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/code.png') no-repeat center center;
+    }
+}
+
+
+
 @media screen and (min-width: 368px) {
     section {
        /* background-color: teal;*/
