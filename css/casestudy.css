@@ -1035,50 +1035,50 @@ ul {
 
 
 .slider #slide1 {
-    background-image: url(/img/1-Loading\ Screen.webp);
+    background-image: url(/img/1-Loading\ Screen.png);
 }
 
 .slider #slide2 {
-    background-image: url(/img/2-Log\ In.webp);
+    background-image: url(/img/2-Log\ In.png);
 }
 .slider #slide3 {
-    background-image: url(/img/8-Empty\ Dashboard.webp);
+    background-image: url(/img/8-Empty\ Dashboard.png);
 }
 .slider #slide4 {
-    background-image: url(/img/11-Create:\ File\ Types.webp);
+    background-image: url(/img/11-Create:\ File\ Types.png);
 }
 .slider #slide5 {
-    background-image: url(/img/12-Untitled\ Document.webp);
+    background-image: url(/img/12-Untitled\ Document.png);
 }
 .slider #slide6 {
-    background-image: url(/img/13-Settings.webp);
+    background-image: url(/img/13-Settings.png);
 }
 .slider #slide7 {
-    background-image: url(/img/14-Public\ Account\ Empty.webp);
+    background-image: url(/img/14-Public\ Account\ Empty.png);
 }
 .slider #slide8 {
-    background-image: url(/img/17-Public\ Account\ Filled.webp);
+    background-image: url(/img/17-Public\ Account\ Filled.png);
 }
 .slider #slide9 {
-    background-image: url(/img/22-SEARCH\ BY\ PHONE\ NUMBER.webp);
+    background-image: url(/img/22-SEARCH\ BY\ PHONE\ NUMBER.png);
 }
 .slider #slide10 {
-    background-image: url(/img/25-JOINED\ TEAM.webp);
+    background-image: url(/img/25-JOINED\ TEAM.png);
 }
 .slider #slide11 {
-    background-image: url(/img/26-Versioning.webp);
+    background-image: url(/img/26-Versioning.png);
 }
 .slider #slide12 {
-    background-image: url(/img/28-People.webp);
+    background-image: url(/img/28-People.png);
 }
 .slider #slide13 {
-    background-image: url(/img/29-Sisters\ Share.webp);
+    background-image: url(/img/29-Sisters\ Share.png);
 }
 .slider #slide14 {
-    background-image: url(/img/31-Storage\ with\ Files\ from\ Phone.webp);
+    background-image: url(/img/31-Storage\ with\ Files\ from\ Phone.png);
 }
 .slider #slide15 {
-    background-image: url(/img/36-Create\ a\ folder\ added\ files.webp);
+    background-image: url(/img/36-Create\ a\ folder\ added\ files.png);
 }
 
 @media screen and (min-width: 800px) {
