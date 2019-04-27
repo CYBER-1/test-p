@@ -782,6 +782,11 @@ div .user-img {
     padding: 2rem 2rem 3rem;
 }
 
+#bold-li {
+    list-style: none;
+    font-weight: 600;
+}
+
 .ln-problem-left {
     background-color: #000;
     width: 500px;
