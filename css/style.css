@@ -10,7 +10,6 @@ html {
 
 body {
     background-color: black;
-    font-family: Montserrat;
 }
 
 .container {
@@ -22,14 +21,17 @@ body {
 p {
     font-size: 1.6rem;
     margin-top: .5rem;
+    font-family: Montserrat;
 }
 
 h1 {
     font-size: 4.2rem;
+    font-family: Montserrat;
 }
 
 h3 {
     font-size: 2.7rem;
+    font-family: Montserrat;
 }
 
 .hero {
