@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
   }
   
   .navbar {
@@ -32,7 +32,7 @@
   .main-nav li {
     text-align: center;
     margin: 0 auto;
-    padding-top: 2rem;
+    padding-top: 2.1rem;
   }
   
   .logo {
@@ -83,8 +83,6 @@
       display: flex;
       justify-content: space-between;
       padding-bottom: 0;
-      height: 7rem;
-      align-items: center;
     }
   
     #chkToggle:checked + ul.main-nav {
@@ -105,10 +103,7 @@
     .nav-links {
       margin-left: 4rem;
     }
-  
-    .logo {
-      margin-top: 0;
-    }
+
   
     .navbar-toggle {
       display: none;
