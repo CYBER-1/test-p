@@ -4,7 +4,6 @@
   
   body {
     font-family: Monstserrat;
-    color: #777;
   }
   
   .contact-form {
@@ -32,7 +31,7 @@
   
   #contact {
     padding: 25px;
-    margin: 50px 0;
+    margin: 75px 0;
   }
   
   #contact h3 {
@@ -45,11 +44,12 @@
   }
   
   #contact h4 {
-    margin: 0 0 10px;
+    margin: 5px 0 12.5px;
     display: block;
     text-align: center;
     font-size: 13px;
     font-weight: 400;
+    color: #F3CE18;
   }
 
 .footer {
@@ -103,18 +103,22 @@ section.footer {
   }
   
   #contact button[type="submit"] {
+    border-radius: 10rem;
     cursor: pointer;
     width: 100%;
     border: none;
-    background: red;
-    color: #FFF;
+    background: #F3CE18;
+    color: #000;
     margin: 0 0 5px;
-    padding: 10px;
+    padding: 12px;
     font-size: 15px;
   }
   
   #contact button[type="submit"]:hover {
-    background: #43A047;
+    background: black;
+    border: 1px solid #F3CE18;
+    padding: 11px;
+    color: #fff;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
