@@ -1,3 +1,4 @@
+/*
 <?php
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
@@ -28,3 +29,4 @@ mail($to,email_subject,$email_body,$headers);
 header("Location: pages/contact.html");
 
 ?>
+*/
