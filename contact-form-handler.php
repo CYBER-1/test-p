@@ -1,9 +1,9 @@
 <?php
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$message = $_POST['phone'];
-$message = $_POST['website'];
-$message = $_POST['message'];
+    $name = $_POST['name'];
+    $visitor_email = $_POST['email'];
+    $message = $_POST['phone'];
+    $message = $_POST['website'];
+    $message = $_POST['message'];
 
 
 $email_from = 'mnykolay@gmail.com';
@@ -25,6 +25,6 @@ $headers .= "Reply To: $visitor_email \r\n";
 
 mail($to,email_subject,$email_body,$headers);
 
-header("Location: contact.html");
+header("Location: pages/contact.html");
 
 ?>
