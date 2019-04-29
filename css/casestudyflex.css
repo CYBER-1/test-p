@@ -5,7 +5,11 @@
   }
   
   body {
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  }
+
+  .navbar-toggle {
+    line-height: 1;
   }
   
   .navbar {
@@ -78,7 +82,7 @@
   
   #chkToggle:checked + ul.main-nav {
     display: block;
-    margin-top: -68px;
+    margin-top: -78px;
     padding-top: 0rem;
   }
 
