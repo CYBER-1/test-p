@@ -21,6 +21,10 @@
 
 .waves img {
     z-index: 0;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
 }
 
 section.hero p {
@@ -52,10 +56,6 @@ section.hero p {
     border: none;
 }
 
-.waves {
-    z-index: 2;
-}
-
 .bio h1, p {
     text-align: left;
     color: #F3CE18;
@@ -83,6 +83,20 @@ section.footer {
 
 #social-hide {
     padding: 1rem;
+}
+
+#social-hide  li {
+    width: 35px;
+    height: 35px;
+    line-height: 1.6;
+}
+
+.waves img {
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
 }
 
 
