@@ -67,13 +67,22 @@ section.footer {
     float: right;
     padding: 0;
     margin-right: 5%;
+    padding-top: 1%;
     text-align: center;
+}
+
+.social {
+    margin-top: 0px; 
 }
 
 
 @media only screen and (min-width : 150px) and (max-width : 800px){
 .earth img, .earth {
     display: none;
+}
+
+#social-hide {
+    padding: 1rem;
 }
 
 
@@ -90,4 +99,40 @@ section.footer {
     padding: 2rem;
     z-index: 1;
 }
+}
+
+@media only screen and (min-width : 400px) and (max-width : 950px){
+.social ul li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 0.5rem;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(134, 134, 134);
+}
+
+.social ul li a i {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.earth img {
+    margin-top: -84px;
+}
+
+.earth {
+    width: 275px;
+    height: 275px;
+}
+
+section.footer {
+    padding-top: 5%;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+    #social-hide {
+        display: none;
+    }
 }
