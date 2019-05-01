@@ -494,6 +494,10 @@ a {
     padding-bottom: 1rem;
 }
 
+.comtainer {
+    overflow: hidden;
+}
+
 .designer:hover {
     text-shadow: 0 0 1px rgb(230, 192, 3), 0 0 2px rgb(230, 192, 3), 0 0 3px rgb(230, 192, 3), 0 0 4px rgb(250, 221, 79), 0 0 5px rgb(250, 221, 79), 0 0 6px rgb(250, 221, 79), 0 0 7px rgb(250, 221, 79), 0 0 8px rgb(250, 221, 79);
     transition: .5s;
