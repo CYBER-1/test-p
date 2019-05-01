@@ -1366,6 +1366,30 @@ ul {
   }
 
 
+  @media only screen and (min-width : 600px) and (max-width : 675px) {
+      #line {
+          height: 10650px;
+      }
+  }
+
+  @media only screen and (min-width : 675px) and (max-width : 770px) {
+    #line {
+        height: 10000px;
+    }
+}
+
+@media only screen and (min-width : 770px) and (max-width : 875px) {
+    #line {
+        height: 9500px;
+    }
+}
+
+@media only screen and (min-width : 875px) and (max-width : 950px) {
+    #line {
+        height: 9000px;
+    }
+}
+
 
     @media screen and (min-width: 780px) {
     .h1-shape-left, .h1-shape-right {
