@@ -17,6 +17,8 @@ h1, h3 {
 body {
     background-color: black;
     line-height: 1.5;
+    overflow-x: hidden;
+
 }
 
 .design-deliverables {
@@ -27,7 +29,6 @@ body {
     background-color: transparent;
     margin: 0 auto;
     width: 100%;
-    overflow-x: hidden;
 }
 
 #summary h1 {
@@ -507,7 +508,6 @@ margin-left: 12.5%;
     display: inline-block;
     width: 100px;
     height: 100px;
-    overflow: hidden;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -893,7 +893,6 @@ ul {
     margin-right: 1.5%;
     position: relative;
     float: right;
-    overflow: hidden;
 }
 
 .userflows-right {
