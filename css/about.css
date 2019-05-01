@@ -166,7 +166,7 @@ section.footer {
     
 }
 
-@media screen and (max-width: 767px){
+@media only screen and (min-width : 100px) and (max-width: 767px){
 
     #chkToggle:checked + ul#js-menu {
         display: block;
@@ -174,7 +174,7 @@ section.footer {
         background-color: black;
         height: 110rem;
         z-index: 1;
-        padding-top: 20rem;
+        padding-top: 18rem;
     }
 
 .navbar {

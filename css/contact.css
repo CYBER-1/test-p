@@ -149,3 +149,14 @@ section.footer {
   :-ms-input-placeholder {
     color: #888;
   }
+
+  @media screen and (max-width: 767px) {
+  #chkToggle:checked + #js-menu {
+    display: block;
+    position: relative;
+    background-color: black;
+    height: 90rem;
+    z-index: 1;
+    padding-top: 18rem;
+  }
+}
