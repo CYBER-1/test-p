@@ -619,7 +619,7 @@ div .user-img {
     color: white;
 }
 
-.magnify {
+.magnify, .summary-end {
     margin-top: 5rem;
     background-color: #F8F8F8;
     width: 100%;
@@ -628,7 +628,7 @@ div .user-img {
     float: left;
 }
 
-.magnify-text {
+.magnify-text, .summary-end-text {
     width: 49%;
     height: auto;
     padding: 2rem;
