@@ -310,6 +310,26 @@ transition: .5s;
     transform: scale(0.97);
 }
 
+
+
+.no-li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  .summary-end-text ul span {
+      font-weight: 600;
+  }
+
+.summary-end h1 {
+    font-size: 24px;
+}
+
+.summary-end p {
+    font-size: 1.6rem;
+}
+
 .problem-solution-poly img {
     width: 100%;
     height: 5rem;
@@ -619,7 +639,7 @@ div .user-img {
     color: white;
 }
 
-.magnify, .summary-end {
+.magnify {
     margin-top: 5rem;
     background-color: #F8F8F8;
     width: 100%;
@@ -628,7 +648,32 @@ div .user-img {
     float: left;
 }
 
-.magnify-text, .summary-end-text {
+.summary-end{
+    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    background-color: #F8F8F8;
+height: auto;
+position: relative;
+display: inline-block;
+float: left;
+z-index: 1;
+}
+
+.summary-end ul {
+    padding-bottom: 0;
+}
+
+.summary-end-text {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: left;
+}
+
+.magnify-text {
     width: 49%;
     height: auto;
     padding: 2rem;
@@ -1104,21 +1149,31 @@ ul {
     .design-process  {
         padding-left: 4rem;
     }
-    
+}
 
 
   @media screen and ( max-width: 600px) {
 
-    .userflows-right {
-        margin-right: 0;
+     .half2 {
+        width: 90%;
+    float: right;
+    padding-right: 3rem;
     }
 
-    .half, .half2 {
-        width: 90%;
-        float: right;
-        margin-bottom: 3rem;
-        padding-right: 2rem;
+    .half {
+        width: 100%;
+    float: none;
+    padding-right: 3rem;
     }
+
+    .userflows-right {
+        margin-top: 5rem;
+        background-color: #F8F8F8;
+        width: 35%;
+        margin-right: 0%;
+        position: relative;
+        float: right;
+        }
 
 
     .low-left {
@@ -1310,12 +1365,25 @@ ul {
     }
   }
 
-  @media screen and (min-width: 780px) {
-.h1-shape-left, .h1-shape-right {
-    display: none;
-}
 
-  }
+
+    @media screen and (min-width: 780px) {
+    .h1-shape-left, .h1-shape-right {
+        display: none;
+    }
+
+
+    .summary-end {
+        margin-top: 5rem;
+        width: 50%;
+        margin-left: 25%;
+        background-color: #F8F8F8;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        float: left;
+        z-index: 1;
+}
 
   @media screen and (min-width: 1000px) {
     #summary {

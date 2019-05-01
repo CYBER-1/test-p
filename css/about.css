@@ -1,6 +1,12 @@
 @import url("/css/stars.css");
 @import url("/css/style.css");  
 
+
+.navbar {
+    position: relative;
+    z-index:1;
+}
+
 .hero {
     overflow: hidden;
 }
@@ -159,3 +165,15 @@ section.footer {
     }
     
 }
+
+@media screen and (max-width: 767px){
+#chkToggle:checked + ul.main-nav {
+    display: block;
+    position: relative;
+    background-color: black;
+    height: 110rem;
+    z-index: -5;
+    padding-top: 18rem;
+}
+}
+
