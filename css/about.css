@@ -167,13 +167,24 @@ section.footer {
 }
 
 @media screen and (max-width: 767px){
-#chkToggle:checked + ul.main-nav {
-    display: block;
+
+    #chkToggle:checked + ul#js-menu {
+        display: block;
+        position: relative;
+        background-color: black;
+        height: 110rem;
+        z-index: 1;
+        padding-top: 20rem;
+    }
+
+.navbar {
+    z-index: 10000;
+}
+
+
+#chkToggle:checked + ul.js-menu {
     position: relative;
-    background-color: black;
-    height: 110rem;
-    z-index: -5;
-    padding-top: 18rem;
+    z-index: 1;
 }
 }
 
