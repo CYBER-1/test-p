@@ -1363,6 +1363,10 @@ ul {
     .solution {
         float: left;
     }
+    /*Hides Overflow on mobile - stops sticky*/
+    .container {
+        overflow-x: hidden;
+    }
   }
 
 
