@@ -310,8 +310,6 @@ transition: .5s;
     transform: scale(0.97);
 }
 
-
-
 .no-li {
     list-style: none;
     font-weight: 600;
