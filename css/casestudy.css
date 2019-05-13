@@ -320,6 +320,10 @@ transition: .5s;
       font-weight: 600;
   }
 
+.summary-end-text ul li {
+    list-style: none;
+}
+
 .summary-end h1 {
     font-size: 24px;
 }
