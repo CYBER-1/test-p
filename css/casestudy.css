@@ -483,6 +483,14 @@ margin-left: 12.5%;
     float: center;
 }
 
+.goals .bold-li {
+    font-weight: 600;
+}
+
+.frustrations .bold-li {
+    font-weight: 600;
+}
+
 .goals li {
     font-weight: 100;
    /* padding-top: 5px; */
@@ -823,7 +831,7 @@ z-index: 1;
     padding: 2rem 2rem 3rem;
 }
 
-#bold-li {
+.bold-li {
     list-style: none;
     font-weight: 600;
 }
