@@ -1,4 +1,4 @@
-/*Color: #F3CE18*/
+/*Color: #73199E*/
 
 @import url("/css/stars.css");
 
@@ -58,14 +58,6 @@ body {
     display: inline-block;
     color: #000;
     margin-left: 12.5%;
-}
-
-.btns a:link {
-    color: #fff;
-}
-
-.btns a:visited {
-    color: #fff;
 }
 
 ul img {
