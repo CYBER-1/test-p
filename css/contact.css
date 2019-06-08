@@ -11,7 +11,7 @@
     width: 100%;
     position: absolute;
     top: 0;
-    margin: 0 auto;
+    margin: 35px auto;
     right: 0;
     left: 0;
   }
@@ -30,8 +30,8 @@
   }
   
   #contact {
-    padding: 25px;
-    margin: 75px 0;
+    padding: 50px 25px 0 25px;
+    /*margin: 75px 0;*/
   }
   
   #contact h3 {
@@ -53,8 +53,8 @@
   }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    /*position: absolute;
+    bottom: 0;*/
 }
 
 section.footer {
@@ -158,5 +158,12 @@ section.footer {
     height: 90rem;
     z-index: 1;
     padding-top: 18rem;
+  }
+}
+
+@media screen and (min-width: 368px) {
+.social {
+    margin-top: 0px;
+    padding: 0 3rem 0 3rem;
   }
 }
