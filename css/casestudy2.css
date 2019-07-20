@@ -1,4 +1,4 @@
-/*Color: #73199E*/
+/*Color: #50E298*/
 
 @import url("/css/stars.css");
 
@@ -54,9 +54,9 @@ body {
 }
 
 .btn-ios {
-    background: #F3CE18;
+    background: #50E298;
     display: inline-block;
-    color: #000;
+    color: #50E298;
     margin-left: 12.5%;
 }
 
@@ -82,9 +82,8 @@ ul li {
 
 
 .btn-desk {
-    border: 1px solid #F3CE18;
-    float: right;
-    margin-right: 12.5%;
+    border: 1px solid #50E298;
+    margin: 0 auto;
 }
 
 .btn-desk {
@@ -110,13 +109,13 @@ ul li {
 .btn-ios:hover {
     background: transparent;
     color: #fff;
-    border: 1px solid #F3CE18;
+    border: 1px solid #50E298;
     transition: .5s;
     padding-top: 9px;
 }
 
 .btn-view {
-background-color: #F3CE18;
+background-color: #50E298;
 border: 1px solid #000;
 border-radius: 20px;
 width: 60%;
@@ -218,12 +217,12 @@ margin: 0 auto;
 .btn-view:hover {
 background: transparent;
 color: #000;
-border: 1px solid #F3CE18;
+border: 1px solid #50E298;
 transition: .5s;
 }
 
 .btn-desk:hover {
-    background: #F3CE18;
+    background: #50E298;
     color: #000;
     transition: .5s;
 }
@@ -369,7 +368,7 @@ transition: .5s;
     background-color: red;
     width: 100px;
     height: 50px;
-    background: #F3CE18;
+    background: #4D1F8C;
     -webkit-clip-path: polygon(75% 25%, 100% 50%, 75% 75%, 25% 75%, 0 50%, 25% 25%);
     clip-path: polygon(75% 25%, 100% 50%, 75% 75%, 25% 75%, 0 50%, 25% 25%);
 }
@@ -810,7 +809,7 @@ z-index: 1;
 
 /*
 .h1-shape-left {
-    background-color: #F3CE18;
+    background-color: #50E298;
     float: left;
     -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
@@ -888,7 +887,7 @@ ul {
 
 
 .h1-shape-right {
-    background-color: #F3CE18;
+    background-color: #50E298;
     float: left;
     -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
@@ -1034,7 +1033,7 @@ ul {
 #sticky {
     position: sticky;
     position: -webkit-sticky;
-    background: #F3CE18;
+    background: #50E298;
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -1151,7 +1150,7 @@ ul {
 }
 
 .btn-desk {
-    margin-right: 22.5%;
+    margin: 0 auto;
     width: 25%;
 }
 }
@@ -1310,7 +1309,7 @@ ul {
     }
 
     .btn-desk {
-        margin-right: 7.5%;
+        margin: 0 auto;
         width: 40%;
     }
 
