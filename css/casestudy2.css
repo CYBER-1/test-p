@@ -149,7 +149,7 @@ margin: 0 auto;
 
 
 .sketch-img-ios {
-    background: url(/img/paper-sketch.png);
+    background: url(/img/sketch-gamez.png);
     width: 90%;
     background-position: center;
     background-size: contain;
@@ -159,7 +159,7 @@ margin: 0 auto;
 }
 
 .lowfi-ios {
-    background: url(/img/lowfi.png);
+    background: url(/img/landing-gamez.png);
     width: 90%;
     background-position: center;
     background-size: contain;
@@ -191,7 +191,7 @@ margin: 0 auto;
 }
 
 #low-left {
-    background: url(/img/lowfi-left.png);
+    background: url(/img/user-about-gamez.png);
     width: 47.5%;
     height: 100%;
     background-position: center;
@@ -201,7 +201,7 @@ margin: 0 auto;
 }
 
 #low-right {
-    background: url(/img/low-fi2.png);
+    background: url(/img/add-friends-gamez.png);
     width: 47.5%;
     height: 100%;
     background-position: center;
