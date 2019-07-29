@@ -181,12 +181,18 @@ section {
 .main-nav li ul {
     position: absolute; 
     display: none;
-    left: -22.5px;
-    padding-bottom: 1.5rem;
+    left: 4rem;
+    margin-top: 1rem;
 }
 
 .main-nav li ul a {
     color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.main-nav li ul li a:hover {
+    color: #fff;
 }
 
 .main-nav li ul li {
@@ -210,7 +216,19 @@ section {
 .main-nav li:hover ul {
 	display:inline-block;
 	background-color: #F3CE18;
-	}
+    }
+
+.navbar li ul li {
+    padding-top: 0px;
+    }
+    
+.navbar li ul li:hover {
+    background: black;
+    color: rgb(0, 0, 0);
+    border: 0.05px solid #F3CE18;
+    transition: .5s;
+}
+    
 
 .main-nav a {
 	display:block;
@@ -490,6 +508,71 @@ a {
 }
 
 @media only screen and (min-width : 150px) and (max-width : 780px) {
+
+    .main-nav li ul {
+        position: relative; 
+        display: none;
+        left: 0rem;
+        top: 1rem;
+        display:block;
+        width: 23rem;
+        margin: 0 auto;
+        background-color: #F3CE18;
+    }
+    
+    .main-nav li ul a {
+        color: black;
+        text-align: left;
+        padding: 10px;
+    }
+    
+    .main-nav li ul li a:hover {
+        color: #fff;
+    }
+    
+    .main-nav li ul li {
+        width:23rem;
+        float:none;
+        display:list-item;
+        position: relative;
+    }
+
+    .main-nav li ul:hover > li {
+        display:inherit;
+    }
+    
+    .main-nav li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        position: relative;
+        }
+        
+    .main-nav li:hover ul {
+        display:block;
+        width: 23rem;
+        margin: 0 auto;
+        background-color: #F3CE18;
+        }
+    
+    .navbar li ul li {
+        padding-top: 0px;
+        }
+        
+    .navbar li ul li:hover {
+        background: black;
+        color: rgb(0, 0, 0);
+        border: 0.05px solid #F3CE18;
+        transition: .5s;
+    }
+        
+    
+    .main-nav a {
+        display:block;
+        color:#FFF;
+        text-decoration:none;
+    }
+
     #cs1 { 
         background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/hyve.png') no-repeat center center;
     }
@@ -645,8 +728,6 @@ h1, h3, p {
         transform: translate(-50%, -50%);
         width: 20rem;
     }
-    
-
 }
 
 @media screen and (max-width: 700px) { 
