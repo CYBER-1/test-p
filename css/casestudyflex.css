@@ -39,7 +39,6 @@
     top: 2.5rem;
     right: 2rem;
     cursor: pointer;
-    font-size: 32px;
   }
   
   .nav-links,
@@ -71,10 +70,6 @@
     font-size: 24px;
   }
 
-.main-nav i:hover {
-      color: #F3CE18;
-      transition: 0.4s;
-  }
   
   #chkToggle {
     display: none;
