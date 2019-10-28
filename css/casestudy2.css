@@ -53,6 +53,16 @@ body {
     font-size: 12px;
 }
 
+.btns a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btns a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
 .btn-ios {
     background: #50E298;
     display: inline-block;
