@@ -38,7 +38,7 @@ h3 {
 }
 
 .hero {
-    width: 100%; 
+    width: 100%;
 }
 
 .cs-text {
@@ -49,13 +49,13 @@ h3 {
 
 .btn {
         text-shadow: none;
-    }    
+    }
 
 section {
     /*background-color: orange;*/
     color: #fff;
     height: 100vh;
-    width: 90%; 
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -179,7 +179,7 @@ section {
 
 
 .main-nav li ul {
-    position: absolute; 
+    position: absolute;
     display: none;
     left: 4rem;
     margin-top: 1rem;
@@ -212,7 +212,7 @@ section {
 	list-style: none;
     position: relative;
 	}
-	
+
 .main-nav li:hover ul {
 	display:inline-block;
 	background-color: #F3CE18;
@@ -221,14 +221,14 @@ section {
 .navbar li ul li {
     padding-top: 0px;
     }
-    
+
 .navbar li ul li:hover {
     background: black;
     color: rgb(0, 0, 0);
     border: 0.05px solid #F3CE18;
     transition: .5s;
 }
-    
+
 
 .main-nav a {
 	display:block;
@@ -249,7 +249,7 @@ section.hero {
 a:-webkit-any-link {
     cursor: pointer;
     text-shadow: none;
-}    
+}
 
 a {
     text-decoration: none;
@@ -277,7 +277,7 @@ a {
 }
 
 .nav-mail {
-    right: 2rem; 
+    right: 2rem;
 }
 
 .right {
@@ -299,7 +299,7 @@ a:hover  {
     opacity: 1;
     -webkit-transition: opacity .7s;
     transition: opacity .7s;
-} 
+}
 
 .btn {
     opacity: 1;
@@ -401,15 +401,15 @@ div.btn {
     padding-top: 36.5vh;
 }
 
-#cs1 { 
+#cs1 {
     background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/hyve.png') no-repeat center center fixed;
 }
 
-#cs2 { 
+#cs2 {
     background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/BusyBus.png') no-repeat center center fixed;
 }
 
-#cs3 { 
+#cs3 {
     background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/GameZ.png') no-repeat center center fixed;
 }
 
@@ -459,7 +459,7 @@ div.btn {
 .main {
     float: left;
   }
-  
+
 .btn {
     display: inline-block;
     text-transform: uppercase;
@@ -510,7 +510,7 @@ a {
 @media only screen and (min-width : 150px) and (max-width : 780px) {
 
     .main-nav li ul {
-        position: relative; 
+        position: relative;
         display: none;
         left: 0rem;
         top: 1rem;
@@ -519,17 +519,17 @@ a {
         margin: 0 auto;
         background-color: #F3CE18;
     }
-    
+
     .main-nav li ul a {
         color: black;
         text-align: center;
         padding: 10px;
     }
-    
+
     .main-nav li ul li a:hover {
         color: #fff;
     }
-    
+
     .main-nav li ul li {
         width:23rem;
         float:none;
@@ -540,55 +540,55 @@ a {
     .main-nav li ul:hover > li {
         display:inherit;
     }
-    
+
     .main-nav li {
         padding: 0;
         margin: 0;
         list-style: none;
         position: relative;
         }
-        
+
     .main-nav li:hover ul {
         display:block;
         width: 23rem;
         margin: 0 auto;
         background-color: #F3CE18;
         }
-    
+
     .navbar li ul li {
         padding-top: 0px;
         }
-        
+
     .navbar li ul li:hover {
         background: black;
         color: rgb(0, 0, 0);
         border: 0.05px solid #F3CE18;
         transition: .5s;
     }
-        
-    
+
+
     .main-nav a {
         display:block;
         color:#FFF;
         text-decoration:none;
     }
 
-    #cs1 { 
+    #cs1 {
         background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/hyve.png') no-repeat center center;
     }
-    
-    #cs2 { 
+
+    #cs2 {
         background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/BusyBus.png') no-repeat center center;
     }
-    
-    #cs3 { 
+
+    #cs3 {
         background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/code.png') no-repeat center center;
     }
 
     #cs1:hover {
         background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.png') no-repeat center center;
     }
-    
+
     #cs2:hover {
         background: linear-gradient(rgba(5, 1, 1, 0.25), rgba(0, 0, 0, 0.25)), url('/img/BusyBus.png') no-repeat center center;
     }
@@ -617,7 +617,7 @@ a {
     font-size: 65px;
     font-size: calc(4rem + 3vmax);
 }
-      
+
 .myname {
     border-bottom: 1px solid #fff;
     padding-bottom: 1rem;
@@ -698,7 +698,7 @@ h1, h3, p {
     font-size: 20px;
     display: block;
 }
-        
+
 .social ul li a i {
     line-height: 40px;
     margin-left: 0.2rem;
@@ -716,7 +716,7 @@ h1, h3, p {
     .btn {
         width: calc(26rem + 1.2vmax);
     }
-    
+
 }
 
 @media screen and (max-width: 800px) {
@@ -730,7 +730,7 @@ h1, h3, p {
     }
 }
 
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 700px) {
     .waves img {
         width: 100%;
         height: 8rem;
@@ -826,7 +826,7 @@ span {
         margin: 0;
         padding: 0;
       }
-      
+
       #cs1 .slide {
         float: left;
         list-style-type: none;
