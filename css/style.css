@@ -402,7 +402,10 @@ div.btn {
 }
 
 #cs1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/hyve.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/hyve.webp') no-repeat center center fixed;
+}
+body.no-webp #cs1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/img/hyve.jpg') no-repeat center center fixed;
 }
 
 #cs2 {
@@ -417,7 +420,10 @@ body.no-webp #cs3 {
 }
 
 #cs1:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.webp') no-repeat center center fixed;
+}
+body.no-webp #cs1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/img/hyve.jpg') no-repeat center center fixed;
 }
 
 #cs2:hover {
