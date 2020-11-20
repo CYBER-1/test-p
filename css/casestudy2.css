@@ -99,7 +99,7 @@ ul li {
 .btn-desk {
     border-radius: 20px;
     width: 35%;
-    height: 4rem; 
+    height: 4rem;
     text-align: center;
     padding-top: 9px;
     font-size: 16px;
@@ -109,7 +109,7 @@ ul li {
 .btn-ios {
     border-radius: 20px;
     width: 35%;
-    height: 4rem; 
+    height: 4rem;
     text-align: center;
     padding-top: 10px;
     font-size: 16px;
@@ -129,7 +129,7 @@ background-color: #50E298;
 border: 1px solid #000;
 border-radius: 20px;
 width: 60%;
-height: 4rem; 
+height: 4rem;
 line-height: 1.2;
 text-align: center;
 padding-top: 10px;
@@ -164,7 +164,7 @@ margin: 0 auto;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 32vh; 
+    height: 32vh;
     margin: 0 auto;
 }
 
@@ -174,7 +174,7 @@ margin: 0 auto;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 35vh; 
+    height: 35vh;
     margin: 0 auto;
 }
 
@@ -184,7 +184,7 @@ margin: 0 auto;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 55vh; 
+    height: 55vh;
     margin: 0 auto;
 }
 
@@ -263,7 +263,7 @@ transition: .5s;
 }
 
 .cs-start img {
-    width: 5rem;   
+    width: 5rem;
 }
 
 .cs-start div {
@@ -279,7 +279,7 @@ transition: .5s;
 
 .cs-main-body {
     padding-top: 2rem;
-    
+
 }
 
 .cs-main-body {
@@ -670,8 +670,7 @@ div .user-img {
 
 .summary-end{
     margin-top: 5rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
     width: 90%;
     background-color: #F8F8F8;
 height: auto;
@@ -859,7 +858,7 @@ z-index: 1;
 
 .problem p {
     font-size: 1.6rem;
-    padding-bottom: 1.5rem;  
+    padding-bottom: 1.5rem;
 }
 
 .problem h1 {
@@ -1019,9 +1018,9 @@ ul {
 .solution p {
     font-size: 1.6rem;
     padding-bottom: 1.5rem;
-    
+
 }
- 
+
 .solution h1 {
     font-size: 2.4rem;
    /*
@@ -1054,7 +1053,7 @@ ul {
     align-items: center;
     box-shadow: 0 0 6px #000;
   }
-  
+
   #line {
     width: 3px;
     margin: auto;
@@ -1359,7 +1358,7 @@ ul {
     .competitive {
         display: inline-block;
     }
-    
+
 
     .cut-poly-left, .cut-poly-right, .survey-target {
         display: none;
@@ -1392,7 +1391,7 @@ ul {
   @media only screen and (min-width : 150px) and (max-width : 4780px) {
 
     .main-nav li ul {
-        position: relative; 
+        position: relative;
         display: none;
         left: 0rem;
         top: 1rem;
@@ -1406,17 +1405,17 @@ ul {
         color: #50E298;
         transition: 0.4s;
     }
-    
+
     .main-nav li ul a {
         color: black;
         text-align: center;
         padding: 10px;
     }
-    
+
     .main-nav li ul li a:hover {
         color: #fff;
     }
-    
+
     .main-nav li ul li {
         width:23rem;
         float:none;
@@ -1427,25 +1426,25 @@ ul {
     .main-nav li ul:hover > li {
         display:inherit;
     }
-    
+
     .main-nav li {
         padding: 0;
         margin: 0;
         list-style: none;
         position: relative;
         }
-        
+
     .main-nav li:hover ul {
         display:block;
         width: 23rem;
         margin: 0 auto;
         background-color: #50E298;
         }
-    
+
     .navbar li ul li {
         padding-top: 0px;
         }
-        
+
     .navbar li ul li:hover {
         background: black;
         color: rgb(0, 0, 0);
@@ -1515,15 +1514,3 @@ ul {
         width: 50%;
     }
   }
-
-
-
-
-
-
-
-
-
-
-  
-
